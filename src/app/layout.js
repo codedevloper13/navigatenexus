@@ -3,9 +3,9 @@
 import HeaderNavbar from "../../components/HeaderNavbar";
 import Provider from "./Provider";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Raleway } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Raleway({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Navigate Nexus",
